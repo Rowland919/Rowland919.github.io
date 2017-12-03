@@ -1,0 +1,84 @@
+body{
+  font-family:Roboto;
+}
+#background{width:100%;
+            height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:0;
+}
+#namecard{
+  z-index:1;
+  position: absolute;
+  background:lightgrey;
+  width:  400px;
+  height: 250px;
+  padding: 1%;
+  right:10%;
+  bottom: 20px;
+}
+#inner_box {
+  width: 98%;
+  height:98%;
+  border: 2px solid green;
+  position:relative;
+}
+
+#name {
+  margin-top:50px;
+  font-size: 30px;
+}
+#job-title {
+  margin-top: 10px;
+/* border-bottom:2px solid black;  */
+}
+.right {
+  text-align: right;
+  margin-right:5px;
+}
+
+#line {
+  border-top: 2px solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon{
+  font-size: 2em !important;
+  margin-left:15px;
+  float: right;
+}
+.most-right{
+  margin-right:20px;
+}
+a{ 
+  text-decoration: none;
+}
+#bottom-icon{
+  position: absolute;
+  right:0;
+  bottom:0;
+  text-align:center;
+  padding:10px;
+  border:1px solid black;
+  background:black;
+  color:white;
+}
+
+#other-box{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  background:white;
+  width:  100px;
+  height: 100px;
+  z-index:1;
+  transform: translate(-50%, -50%);
+  border-radius:100%;
+}
+#other-box-text{
+  text-align:center;
+  line-height:100px;
+  color: green;
+}
